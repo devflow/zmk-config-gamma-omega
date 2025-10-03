@@ -19,6 +19,11 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <13 10>;
         };
+
+        L_Alt {
+            bindings = <&kp LALT>;
+            key-positions = <12 11>;
+        };
     };
 
     keymap {
