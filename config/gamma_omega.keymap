@@ -28,11 +28,13 @@
         L_Gui {
             bindings = <&kp LEFT_GUI>;
             key-positions = <10 11>;
+            timeout-ms = <70>;
         };
 
         R_Gui {
             bindings = <&kp RGUI>;
             key-positions = <19 18>;
+            timeout-ms = <70>;
         };
 
         L_Alt {
@@ -170,19 +172,19 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp N7        &kp N8        &kp N9        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &trans  &trans  &trans  &kp N0  &trans
+&trans  &trans  &trans      &trans       &trans  &trans  &kp N7        &kp N8        &kp N9        &trans
+&trans  &trans  &trans      &trans       &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans  &trans  &kp K_COPY  &kp K_PASTE  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &trans  &trans      &trans       &kp N0  &trans
             >;
         };
 
         NAV {
             bindings = <
-&trans    &trans  &trans  &trans   &trans  &trans    &trans    &trans        &trans     &trans
-&kp HOME  &trans  &trans  &kp TAB  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp END
-&trans    &trans  &trans  &trans   &trans  &trans    &trans    &trans        &trans     &trans
-&trans    &trans  &trans  &trans   &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &trans    &kp HOME  &kp END       &trans     &trans
+&trans  &trans  &trans  &kp TAB  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans   &trans  &trans    &trans    &trans        &trans     &trans
+&trans  &trans  &trans  &trans   &trans  &trans
             >;
         };
 
@@ -197,10 +199,10 @@
 
         SYM {
             bindings = <
-&kp EXCL     &kp ASTRK      &kp PLUS   &kp LEFT_BRACE        &trans  &trans  &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
-&kp CARET    &kp AMPERSAND  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp LT  &kp GT  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE   &trans         &kp DOLLAR
-&kp PERCENT  &kp MINUS      &kp PIPE   &kp LEFT_BRACKET      &trans  &trans  &kp RIGHT_BRACKET      &kp GRAVE          &trans         &trans
-&trans       &trans         &trans     &trans                &trans  &trans
+&trans       &kp PLUS   &kp ASTRK  &kp LEFT_BRACE        &trans  &trans  &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
+&kp CARET    &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp LT  &kp GT  &kp RIGHT_PARENTHESIS  &kp APOS           &kp PIPE       &kp DOLLAR
+&kp PERCENT  &kp EXCL   &kp AMPS   &kp LEFT_BRACKET      &trans  &trans  &kp RIGHT_BRACKET      &kp GRAVE          &kp HASH       &trans
+&trans       &trans     &trans     &trans                &trans  &trans
             >;
         };
 
