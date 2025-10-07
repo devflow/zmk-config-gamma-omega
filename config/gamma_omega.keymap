@@ -201,7 +201,7 @@
             bindings = <
 &trans       &kp PLUS   &kp ASTRK  &kp LEFT_BRACE        &trans  &trans  &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
 &kp CARET    &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp LT  &kp GT  &kp RIGHT_PARENTHESIS  &kp APOS           &kp PIPE       &kp DOLLAR
-&kp PERCENT  &kp EXCL   &kp AMPS   &kp LEFT_BRACKET      &trans  &trans  &kp RIGHT_BRACKET      &kp GRAVE          &kp HASH       &trans
+&kp PERCENT  &kp EXCL   &kp AMPS   &kp LEFT_BRACKET      &trans  &trans  &kp RIGHT_BRACKET      &kp GRAVE          &kp HASH       &kp AT
 &trans       &trans     &trans     &trans                &trans  &trans
             >;
         };
